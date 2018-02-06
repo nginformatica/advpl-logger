@@ -12,6 +12,8 @@ AppServer console and to the file system (with auto resource management).
 
 ## Examples
 
+You create a logger passing a **context** to `:New()`, that is, a name to say what is being tracked.
+
 - Simple
 ```xbase
 Local oLogger := Logger():New( 'CAPYBARAS_MANAGEMENT' )
